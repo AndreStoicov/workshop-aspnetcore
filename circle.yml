@@ -1,6 +1,6 @@
 machine:
   environment:
-    DATABASE_URL: Server=127.0.0.1;Database=WorkshopAspCore_Test;User Id=sa;Password=Workshop@123;MultipleActiveResultSets=true
+    DATABASE_URL: "Server=127.0.0.1;Database=WorkshopAspCore_Test;User Id=sa;Password=Workshop@123;MultipleActiveResultSets=true"
   services:
     - docker
   post:
